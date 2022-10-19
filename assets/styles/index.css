@@ -23,4 +23,21 @@ body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background: url(/assets/img/bg.jpg) center/cover fixed;
+}
+
+header {
+  height: 100vh;
+}
+header h1 {
+  text-align: center;
+  height: 33vh;
+  width: 60%;
+  margin: 200px auto 0 auto;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color2);
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */
