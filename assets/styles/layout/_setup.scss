@@ -1,26 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Merriweather:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --color1: #000000;
   --color2: #ffffff;
   --color3: #6c757d;
 }
-
 @font-face {
   font-family: "font-1";
-  src: url(../../fonts/Inter-VariableFont_slntwght.ttf);
+  src: url(../../fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 @font-face {
   font-family: "font-2";
   src: url(../../fonts/Merriweather-Bold.ttf);
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Merriweather:wght@300&display=swap");
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
-}/*# sourceMappingURL=index.css.map */
+}
