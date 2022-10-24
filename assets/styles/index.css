@@ -27,7 +27,8 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: 78.7vh;
+  position: relative;
 }
 header h1 {
   text-align: center;
@@ -37,7 +38,84 @@ header h1 {
   font-size: 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   color: var(--color2);
   text-transform: uppercase;
+}
+header p {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+  color: white;
+}
+header .fa-regular {
+  font-size: 5rem;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: #fff;
+}
+header nav {
+  height: 84px;
+  width: 79%;
+  background: rgba(255, 255, 255, 0.25);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+header nav div:first-child {
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav div:first-child ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+header nav div:first-child ul li:hover {
+  background: #fff;
+  color: black;
+  transition: 0.3s;
+}
+header nav div:first-child ul li {
+  cursor: pointer;
+  letter-spacing: 2px;
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav div:last-child {
+  width: 27%;
+  position: relative;
+}
+header nav div:last-child ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+header nav div:last-child ul li {
+  font-size: 2rem;
+}
+header nav div:last-child ul li i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
