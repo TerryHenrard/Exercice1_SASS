@@ -182,5 +182,17 @@ header nav div:last-child ul li i {
 
 .section2 {
   display: flex;
+  justify-content: space-around;
+  background: #fff;
   text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+.section2 div {
+  width: 50%;
+  margin: 0 auto;
+}
+.section2 .rigth_container {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=index.css.map */
