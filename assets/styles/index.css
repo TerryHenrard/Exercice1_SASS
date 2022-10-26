@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;800&family=Merriweather:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,19 +27,20 @@ body {
 }
 
 header {
-  height: 78.7vh;
+  height: 100vh;
   position: relative;
 }
 header h1 {
   text-align: center;
   height: 33vh;
   width: 60%;
-  margin: 200px auto 0 auto;
+  margin: 0 auto;
   font-size: 5rem;
   display: flex;
   align-items: center;
   color: var(--color2);
   text-transform: uppercase;
+  transform: translateY(150px);
 }
 header p {
   font-size: 1.4rem;
@@ -47,6 +48,7 @@ header p {
   font-family: "Merriweather", sans-serif;
   text-align: center;
   color: white;
+  transform: translateY(120px);
 }
 header .fa-regular {
   font-size: 5rem;
@@ -59,7 +61,7 @@ header .fa-regular {
 }
 header nav {
   height: 84px;
-  width: 79%;
+  width: 75%;
   background: rgba(255, 255, 255, 0.25);
   display: flex;
   justify-content: space-between;
@@ -99,6 +101,7 @@ header nav div:first-child ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 header nav div:last-child {
   width: 27%;
@@ -118,4 +121,66 @@ header nav div:last-child ul li i {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+}
+
+.section1 {
+  background: #fff;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.section1 .date-s1 {
+  width: 18%;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-family: "Merriweather", sans-serif;
+}
+.section1 .date-s1::before {
+  content: "";
+  position: absolute;
+  top: 107.5%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 23%;
+  background: rgba(0, 0, 0, 0.25);
+}
+.section1 .date-s1::after {
+  content: "";
+  position: absolute;
+  top: 107.5%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 23%;
+  background: rgba(0, 0, 0, 0.25);
+}
+.section1 .title-s1 h2 {
+  font-size: 3rem;
+  width: 35%;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+  text-transform: uppercase;
+}
+.section1 .text-s1 {
+  width: 35%;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.button {
+  background: transparent;
+  padding: 12px 40px;
+  margin: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.section2 {
+  display: flex;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
