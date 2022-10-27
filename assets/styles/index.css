@@ -222,4 +222,26 @@ header nav div:last-child ul li i {
   text-align: left;
   line-height: 40px;
   letter-spacing: 0.5px;
+}
+
+form {
+  display: flex;
+  width: 75%;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  height: 60vh;
+}
+form div {
+  width: 50%;
+}
+form .left_container_form {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+form .rigth_container_form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+form .rigth_container_form div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
