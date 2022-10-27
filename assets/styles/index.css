@@ -170,6 +170,9 @@ header nav div:last-child ul li i {
   font-weight: 300;
   line-height: 35px;
 }
+.section1 #img1 {
+  width: 75%;
+}
 
 .button {
   background: transparent;
