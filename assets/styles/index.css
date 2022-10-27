@@ -198,4 +198,28 @@ header nav div:last-child ul li i {
 }
 .section2 .rigth_container {
   border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+.section2 .dates2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 50px 10px 15px 10px;
+}
+.section2 h3 {
+  text-transform: uppercase;
+  padding: 0 25px 25px 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+.section2 img {
+  width: 75%;
+}
+.section2 .texts2 {
+  width: 75%;
+  margin: 50px auto 0 auto;
+  font-family: "Merriweather", sans-serif;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 40px;
+  letter-spacing: 0.5px;
 }/*# sourceMappingURL=index.css.map */
