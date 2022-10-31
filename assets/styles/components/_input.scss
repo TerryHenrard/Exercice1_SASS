@@ -1,0 +1,29 @@
+.iName input,
+.iEmail input {
+  margin: 0 0 0 50px;
+  width: 75%;
+  height: 25%;
+}
+textarea {
+  margin: 0 0 0 50px;
+  width: 75%;
+  height: 65%;
+  resize: none;
+}
+.iSubmit {
+  display: flex;
+  align-items: center;
+}
+#submitButton {
+  margin: 0 0 0 50px;
+  border-color: rgba(0, 0, 0, 0.5);
+  width: 33%;
+  height: 50px;
+  background: none;
+  color: rgba(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
