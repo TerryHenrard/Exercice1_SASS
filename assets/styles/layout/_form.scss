@@ -44,12 +44,46 @@ form {
   .rigth_container_form {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    div {
+      display: flex;
+    }
+    div p:first-child {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    div p:last-child {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.5);
+    }
     div:not(.fdiv4) {
       border-bottom: 1px solid rgba(0, 0, 0, 0.25);
       width: 100%;
     }
     .fdiv4 {
       width: 100%;
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 40%;
+        list-style: none;
+        li {
+          border: 1px solid rgba(0, 0, 0, 0.25);
+          padding: 15px;
+          border-radius: 50px;
+          font-size: 1.1rem;
+          margin: 0 20px 0 0;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

@@ -270,12 +270,46 @@ form .rigth_container_form {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+form .rigth_container_form div {
+  display: flex;
+}
+form .rigth_container_form div p:first-child {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+form .rigth_container_form div p:last-child {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
 form .rigth_container_form div:not(.fdiv4) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   width: 100%;
 }
 form .rigth_container_form .fdiv4 {
   width: 100%;
+}
+form .rigth_container_form .fdiv4 ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+  list-style: none;
+}
+form .rigth_container_form .fdiv4 ul li {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  margin: 0 20px 0 0;
+  cursor: pointer;
 }
 
 .iName input,
@@ -306,7 +340,7 @@ textarea {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1.5px;
   cursor: pointer;
 }
