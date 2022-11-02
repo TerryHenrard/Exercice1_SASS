@@ -13,17 +13,17 @@
 
 @font-face {
   font-family: "font-1";
-  src: url(../../fonts/Inter-VariableFont_slntwght.ttf);
+  src: url("../../fonts/Inter-VariableFont_slntwght.ttf");
 }
 @font-face {
   font-family: "font-2";
-  src: url(../../fonts/Merriweather-Bold.ttf);
+  src: url("../../fonts/Merriweather-Bold.ttf");
 }
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: url(/assets/img/bg.jpg) center/cover fixed;
+  background: url("/assets/img/bg.jpg") center/cover fixed;
   height: 425vh;
 }
 

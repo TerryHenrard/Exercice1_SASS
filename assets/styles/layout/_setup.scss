@@ -10,17 +10,17 @@
 }
 @font-face {
   font-family: "font-1";
-  src: url(../../fonts/Inter-VariableFont_slnt\wght.ttf);
+  src: url("../../fonts/Inter-VariableFont_slnt\wght.ttf");
 }
 @font-face {
   font-family: "font-2";
-  src: url(../../fonts/Merriweather-Bold.ttf);
+  src: url("../../fonts/Merriweather-Bold.ttf");
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;800&family=Merriweather:wght@300&display=swap");
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: url(/assets/img/bg.jpg) center/cover fixed;
+  background: url("/assets/img/bg.jpg") center/cover fixed;
   height: 425vh;
 }
