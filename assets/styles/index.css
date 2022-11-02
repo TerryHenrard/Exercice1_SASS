@@ -23,7 +23,7 @@ body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: url("/assets/img/bg.jpg") center/cover fixed;
+  background: url(../img/bg.jpg) center/cover fixed;
   height: 425vh;
 }
 
